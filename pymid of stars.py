@@ -21,13 +21,18 @@ def numberloop (tf ,number):
 #CALCULATE THE PYRAMID
 def pyramid (number):
     while number != 1:
-        print(number - 1)
+        newnumber = number - 1
+
+        message =(newnumber * string)
+        return message
 
 
 
-
-
+number = 0
+tf = 0
+string = "*"
 number  = odd_number (number)
+get_num() 
 numberloop(tf,number)
-
-print(number)
+message = pyramid(number)
+print (message)
