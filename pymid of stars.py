@@ -20,19 +20,16 @@ def numberloop (tf ,number):
 
 #CALCULATE THE PYRAMID
 def pyramid (number):
-    while number != 1:
-        newnumber = number - 1
-
-        message =(newnumber * string)
-        return message
+    for i in range(number-1):
+        numwhite = number-i
+        message = print (' '*numwhite + '*'*i + '*'*i)
+    return message 
 
 
 
 number = 0
 tf = 0
-string = "*"
 number  = odd_number (number)
 get_num() 
-numberloop(tf,number)
-message = pyramid(number)
+message = " "
 print (message)
